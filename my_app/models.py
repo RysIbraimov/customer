@@ -27,4 +27,4 @@ class Accaunt(models.Model):
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.pin
+        return self.acc_num
